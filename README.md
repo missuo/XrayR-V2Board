@@ -23,11 +23,7 @@
 ApiHost: "YOUR_PANEL_URL" # 修改这里
 ApiKey: "YOUR_TOKEN" # 修改这里
 ```
-  例如:
-```
-ApiHost: "https://cnix.com" # 修改这里
-ApiKey: "cnix_is_best" # 修改这里
-```
+
 
 2. 修改 `install.sh` 文件的169行，将用户名 `missuo` 修改为你自己的GitHub用户名。
 ```
