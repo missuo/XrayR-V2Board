@@ -6,7 +6,7 @@
 2. 感谢 `XrayR-release` 提供的一键脚本
 3. 本脚本是基于 `XrayR-release` 修改的
 4. 适用于 `V2Board`
-5. 本仓库的 `XrayR` 版本会默认使用最新版
+5. 本仓库默认使用最新版 `XrayR` 
 
 ## 原项目
 [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
