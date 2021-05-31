@@ -33,7 +33,7 @@ ApiKey: "cnix_is_best" # 修改这里
 wget https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
 ```
 
-3. 修改下面链接的用户名为你自己的GitHub用户名，完成配置一键安装脚本命令。
+3. 修改下面链接的用户名 `missuo` 为你自己的GitHub用户名，完成配置一键安装脚本命令。
 ```
 bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/install.sh)
 ```
