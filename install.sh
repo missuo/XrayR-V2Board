@@ -181,6 +181,18 @@ install_XrayR() {
     echo "---------------------------"
     echo ""
     
+    # 关闭AEAD强制加密
+    echo "选择是否关闭AEAD强制加密(默认关闭)"
+    echo ""
+    read -p "请输入你的选择(1为开启,0为关闭):" aead_disable
+    [ -z "${aead_disable}" ]
+
+
+    # 如果不输入默认为关闭
+    if [ ! $aead_disable ]; then
+    aead_disable="0"
+    fi
+
     # Writing json
     echo "正在尝试写入配置文件..."
     wget https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
@@ -189,6 +201,13 @@ install_XrayR() {
     echo ""
     echo "写入完成，正在尝试重启XrayR服务..."
     echo
+    echo "正在关闭AEAD强制加密..."
+    
+    if [ $aead_disable == "0" ]; then
+    sed -i 'N;18 i Environment="XRAY_VMESS_AEAD_FORCED=false"' /etc/systemd/system/XrayR.service
+    fi
+    
+    systemctl daemon-reload
     XrayR restart
     echo "正在关闭防火墙！"
     echo
