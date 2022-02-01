@@ -8,6 +8,16 @@
 4. 适用于 `V2Board`
 5. 本仓库默认使用最新版 `XrayR` 
 
+## 更新
+### 2021年2月2日
+- 可选择关闭`AEAD`加密(官方脚本默认开启，本脚本默认关闭)
+
+### 2021年12月15日
+- 可选择`V2ray`、`Shadowsocks`、`Trojan`(官方脚本默认V2ray，本脚本默认V2ray)
+
+### 2021年5月31日
+- 完成脚本
+
 ## 原项目
 [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
 
