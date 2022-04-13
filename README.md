@@ -11,6 +11,9 @@
 5. 本仓库默认使用最新版 `XrayR` 
 
 ## 更新
+### 2022年4月13日
+- 增加了 `ARM64` 的支持（例如Oracle ARM可以完美安装）
+
 ### 2022年2月28日
 - 修改`AEAD`加密默认选择（不输入情况下默认开启）
 
@@ -46,8 +49,13 @@ wget https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/config.yml -O /etc/XrayR/c
 ```
 
 3. 修改下面链接的用户名 `missuo` 为你自己的GitHub用户名，完成配置一键安装脚本命令。
+### x86_64
 ```
 bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/install.sh)
+```
+### ARM_64
+```
+bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/install-arm.sh)
 ```
 
 4. 在 `V2Board` 面板上完成基本节点信息的填写。
