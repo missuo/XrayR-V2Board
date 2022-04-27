@@ -1,8 +1,6 @@
 # XrayR-V2Board
 用于V2Board的XrayR一键脚本
 
-## 由于 `XrayR` 作者删库，本脚本维护中，预计今晚修复
-
 ![muyI2Z](https://s3.missuo.me/images/muyI2Z.jpg)
 
 ## 说明
@@ -13,6 +11,9 @@
 5. 本仓库默认使用最新版 `XrayR` 
 
 ## 更新
+### 2022年4月27日
+- 作者删库，本脚本启用备份方案，不受影响
+
 ### 2022年4月13日
 - 增加了 `ARM64` 的支持（例如Oracle ARM可以完美安装）
 
