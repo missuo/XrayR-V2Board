@@ -12,7 +12,8 @@
 
 ## 更新
 ### 2022年4月27日
-- 作者删库，本脚本启用备份方案，不受影响 [XrayR_Barkup](https://github.com/missuo/XrayR)
+- 作者删库，本脚本启用备份方案，不受影响 
+- 我的 [XrayR_备份](https://github.com/missuo/XrayR)
 
 ### 2022年4月13日
 - 增加了 `ARM64` 的支持（例如Oracle ARM可以完美安装）
