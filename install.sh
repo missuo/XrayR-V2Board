@@ -152,7 +152,7 @@ install_XrayR() {
         cp dns.json /etc/XrayR/
     fi
     
-    curl -o /usr/bin/XrayR -Ls https://raw.githubusercontent.com/missuo/XrayR/master/XrayR.sh
+    curl -o /usr/bin/XrayR -Ls https://raw.githubusercontent.com/missuo/XrayR-V2Board/master/XrayR.sh
     chmod +x /usr/bin/XrayR
     
     # 设置节点序号
