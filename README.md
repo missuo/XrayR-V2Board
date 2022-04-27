@@ -1,6 +1,8 @@
 # XrayR-V2Board
 用于V2Board的XrayR一键脚本
 
+## 由于 `XrayR` 作者删库，本脚本维护中，预计今晚修复
+
 ![muyI2Z](https://s3.missuo.me/images/muyI2Z.jpg)
 
 ## 说明
