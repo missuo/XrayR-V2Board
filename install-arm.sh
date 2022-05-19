@@ -181,22 +181,22 @@ install_XrayR() {
     echo "---------------------------"
     echo ""
     
-    # 关闭AEAD强制加密
-    echo "选择是否关闭AEAD强制加密(默认开启AEAD)"
-    echo ""
-    read -p "请输入您的选择(1为开启,0为关闭):" aead_disable
-    [ -z "${aead_disable}" ]
+    # # 关闭AEAD强制加密
+    # echo "选择是否关闭AEAD强制加密(默认开启AEAD)"
+    # echo ""
+    # read -p "请输入您的选择(1为开启,0为关闭):" aead_disable
+    # [ -z "${aead_disable}" ]
    
 
-    # 如果不输入默认为开启
-    if [ ! $aead_disable ]; then
-    aead_disable="1"
-    fi
+    # # 如果不输入默认为开启
+    # if [ ! $aead_disable ]; then
+    # aead_disable="1"
+    # fi
 
-    echo "---------------------------"
-    echo "您的设置为 ${aead_disable}"
-    echo "---------------------------"
-    echo ""
+    # echo "---------------------------"
+    # echo "您的设置为 ${aead_disable}"
+    # echo "---------------------------"
+    # echo ""
 
     # Writing json
     echo "正在尝试写入配置文件..."
@@ -207,10 +207,10 @@ install_XrayR() {
     echo "写入完成，正在尝试重启XrayR服务..."
     echo
     
-    if [ $aead_disable == "0" ]; then
-    echo "正在关闭AEAD强制加密..."
-    sed -i 'N;18 i Environment="XRAY_VMESS_AEAD_FORCED=false"' /etc/systemd/system/XrayR.service
-    fi
+    # if [ $aead_disable == "0" ]; then
+    # echo "正在关闭AEAD强制加密..."
+    # sed -i 'N;18 i Environment="XRAY_VMESS_AEAD_FORCED=false"' /etc/systemd/system/XrayR.service
+    # fi
 
     systemctl daemon-reload
     XrayR restart
