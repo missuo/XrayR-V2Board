@@ -1,9 +1,5 @@
 English | [简体中文](https://github.com/missuo/XrayR-V2Board/blob/main/README_CN.md)
 
-
-
-![muyI2Z](https://s3.missuo.me/images/muyI2Z.jpg)
-
 ## Description
 1. Thanks to `XrayR` all authors for their contributions
 2. Thanks to `XrayR-release` for the one-click script
