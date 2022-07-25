@@ -1,6 +1,6 @@
 [English]((https://github.com/missuo/XrayR-V2Board/blob/main/README.md)) | 简体中文
 
-**用于V2Board的XrayR一键脚本**
+
 
 ![muyI2Z](https://s3.missuo.me/images/muyI2Z.jpg)
 
