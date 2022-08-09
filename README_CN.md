@@ -1,6 +1,16 @@
+<!--
+ * @Author: Vincent Young
+ * @Date: 2022-07-26 02:18:54
+ * @LastEditors: Vincent Young
+ * @LastEditTime: 2022-08-10 05:00:32
+ * @FilePath: /XrayR-V2Board/README_CN.md
+ * @Telegram: https://t.me/missuo
+ * 
+ * Copyright © 2022 by Vincent, All Rights Reserved. 
+-->
 [English](https://github.com/missuo/XrayR-V2Board/blob/main/README.md) | 简体中文
 
-
+[使用Amazon CDN (CloudFront) 加速你的节点](https://github.com/missuo/XrayR-V2Board/blob/main/CloudFront.md)
 
 ![muyI2Z](https://s3.missuo.me/images/muyI2Z.jpg)
 

@@ -2,13 +2,13 @@
  * @Author: Vincent Young
  * @Date: 2022-08-10 04:12:42
  * @LastEditors: Vincent Young
- * @LastEditTime: 2022-08-10 04:58:23
+ * @LastEditTime: 2022-08-10 05:01:01
  * @FilePath: /XrayR-V2Board/CloudFront.md
  * @Telegram: https://t.me/missuo
  * 
  * Copyright © 2022 by Vincent, All Rights Reserved. 
 -->
-**请不要在任何地方转载这篇教程**
+**_请不要在任何地方转载这篇教程_**
 
 # 使用Amazon CDN (CloudFront) 加速你的节点
 
