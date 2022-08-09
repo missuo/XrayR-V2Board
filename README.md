@@ -1,4 +1,16 @@
+<!--
+ * @Author: Vincent Young
+ * @Date: 2022-07-26 02:19:56
+ * @LastEditors: Vincent Young
+ * @LastEditTime: 2022-08-10 04:12:28
+ * @FilePath: /XrayR-V2Board/README.md
+ * @Telegram: https://t.me/missuo
+ * 
+ * Copyright © 2022 by Vincent, All Rights Reserved. 
+-->
 English | [简体中文](https://github.com/missuo/XrayR-V2Board/blob/main/README_CN.md)
+
+[Speed up your nodes with Amazon CDN (CloudFront)](https://github.com/missuo/XrayR-V2Board/blob/main/CloudFront.md)
 
 ## Description
 1. Thanks to `XrayR` all authors for their contributions
