@@ -2,7 +2,7 @@
  * @Author: Vincent Young
  * @Date: 2022-07-26 02:19:56
  * @LastEditors: Vincent Young
- * @LastEditTime: 2022-08-10 04:12:28
+ * @LastEditTime: 2022-10-07 05:55:53
  * @FilePath: /XrayR-V2Board/README.md
  * @Telegram: https://t.me/missuo
  * 
@@ -20,6 +20,8 @@ English | [简体中文](https://github.com/missuo/XrayR-V2Board/blob/main/READM
 5. This repository uses the latest version of `XrayR` by default
 
 ## Update
+### Oct 7, 2022
+- Switch to the latest official version.
 ### May 19, 2022
 - Remove the autonomy to choose whether to enable `AEAD` encryption and force `AEAD` to be enabled
 ### April 27, 2022
@@ -51,18 +53,14 @@ English | [简体中文](https://github.com/missuo/XrayR-V2Board/blob/main/READM
 ApiHost: "YOUR_PANEL_URL" # Modify here
 ApiKey: "YOUR_TOKEN" # Modify here
 ```
-2. Modify line 203 of the `install.sh` file to change the username `missuo` to your own GitHub username.
+2. Modify line 213 of the `install.sh` file to change the username `missuo` to your own GitHub username.
 ```
 wget https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
 ```
 3. Change the username `missuo` in the link below to your own GitHub username to complete the configuration of the one-click install script command.
-### x86_64
+### Install Command
 ```
 bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/install.sh)
-```
-### ARM_64
-```
-bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/install-arm.sh)
 ```
 4. Complete the basic node information on the `V2Board` panel.
 ![Screenshot](https://files.xiami.com/cpp/07d8ec1a38a5462c3afbfac41413b8af/1622434730321.png)

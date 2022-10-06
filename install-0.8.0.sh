@@ -101,7 +101,7 @@ install_XrayR() {
             exit 1
         fi
         echo -e "检测到 XrayR 最新版本：${last_version}，开始安装"
-        wget -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux-64.zip https://github.com/missuo/XrayR/releases/download/${last_version}/XrayR-linux-arm64-v8a.zip
+        wget -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux-64.zip https://github.com/missuo/XrayR/releases/download/${last_version}/XrayR-linux-64.zip
         if [[ $? -ne 0 ]]; then
             echo -e "${red}下载 XrayR 失败，请确保你的服务器能够下载 Github 的文件${plain}"
             exit 1
@@ -135,7 +135,7 @@ install_XrayR() {
     if [[ ! -f /etc/XrayR/config.yml ]]; then
         cp config.yml /etc/XrayR/
         echo -e ""
-        echo -e "全新安装，请先参看教程：https://github.com/missuo/XrayR-V2board，配置必要的内容"
+        echo -e "全新安装，请先参看教程：https://github.com/missuo/XrayR，配置必要的内容"
     else
         systemctl start XrayR
         sleep 2
@@ -181,7 +181,7 @@ install_XrayR() {
     echo "---------------------------"
     echo ""
     
-    # # 关闭AEAD强制加密
+    # 关闭AEAD强制加密
     # echo "选择是否关闭AEAD强制加密(默认开启AEAD)"
     # echo ""
     # read -p "请输入您的选择(1为开启,0为关闭):" aead_disable
