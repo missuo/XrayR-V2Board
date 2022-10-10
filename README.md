@@ -16,8 +16,9 @@ English | [简体中文](https://github.com/missuo/XrayR-V2Board/blob/main/READM
 1. Thanks to `XrayR` all authors for their contributions
 2. Thanks to `XrayR-release` for the one-click script
 3. This script is based on `XrayR-release`.
-4. Only For `V2Board`
-5. This repository uses the latest version of `XrayR` by default
+4. Only For `V2Board`.
+5. Only For `Shadowsocks` `V2Ray-TCP` `V2Ray-WebSockets`.
+6. This repository uses the latest version of `XrayR` by default
 
 ## Update
 ### Oct 7, 2022
