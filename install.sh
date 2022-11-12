@@ -208,11 +208,23 @@ install_XrayR() {
     echo "---------------------------"
     echo ""
 
+    # 输入域名（TLS）
+    echo "输入你的域名"
+    echo ""
+    read -p "请输入你的域名(node.v2board.com)如没开启TLS请直接回车:" node_domain
+    [ -z "${node_domain}" ]
+
+    # 如果不输入默认为node1.v2board.com
+    if [ ! $node_domain ]; then 
+    CertDomain="node.v2board.com"
+    fi
+
     # 写入配置文件
     echo "正在尝试写入配置文件..."
     wget https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
     sed -i "s/NodeID:.*/NodeID: ${node_id}/g" /etc/XrayR/config.yml
     sed -i "s/NodeType:.*/NodeType: ${node_type}/g" /etc/XrayR/config.yml
+    sed -i "s/CertDomain:.*/CertDomain: ${node_domain}/g" /etc/XrayR/config.yml
     echo ""
     echo "写入完成，正在尝试重启XrayR服务..."
     echo

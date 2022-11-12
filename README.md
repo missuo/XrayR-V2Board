@@ -2,7 +2,7 @@
  * @Author: Vincent Young
  * @Date: 2022-07-26 02:19:56
  * @LastEditors: Vincent Young
- * @LastEditTime: 2022-10-07 05:55:53
+ * @LastEditTime: 2022-11-13 03:24:15
  * @FilePath: /XrayR-V2Board/README.md
  * @Telegram: https://t.me/missuo
  * 
@@ -17,10 +17,16 @@ English | [简体中文](https://github.com/missuo/XrayR-V2Board/blob/main/READM
 2. Thanks to `XrayR-release` for the one-click script
 3. This script is based on `XrayR-release`.
 4. Only For `V2Board`.
-5. Only For `Shadowsocks` `V2Ray-TCP` `V2Ray-WebSocket`.
+5. Support for any protocol.
 6. This repository uses the latest version of `XrayR` by default
 
 ## Update
+### Nov 13, 2022
+- Support for `TLS`, such as `TCP-TLS`, `WebSocket-TLS`, `gRPC-TLS` and `Trojan-TLS`.
+- If you are using the TLS protocol, use the following command to request a certificate. (**Before applying, make sure that the domain name has resolved to an IP and that port 80 of the server is not occupied, and temporarily stop the `Nginx` service.**)
+```shell
+bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/AutoApplyCert/apply.sh)
+```
 ### Oct 7, 2022
 - Switch to the latest official version.
 ### May 19, 2022
