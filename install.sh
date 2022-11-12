@@ -216,7 +216,7 @@ install_XrayR() {
 
     # 如果不输入默认为node1.v2board.com
     if [ ! $node_domain ]; then 
-    CertDomain="node.v2board.com"
+    node_domain="node.v2board.com"
     fi
 
     # 写入配置文件
@@ -224,7 +224,7 @@ install_XrayR() {
     wget https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
     sed -i "s/NodeID:.*/NodeID: ${node_id}/g" /etc/XrayR/config.yml
     sed -i "s/NodeType:.*/NodeType: ${node_type}/g" /etc/XrayR/config.yml
-    sed -i "s/CertDomain:.*/CertDomain: ${node_domain}/g" /etc/XrayR/config.yml
+    sed -i "s/CertDomain:.*/CertDomain: \"${node_domain}\"/g" /etc/XrayR/config.yml
     echo ""
     echo "写入完成，正在尝试重启XrayR服务..."
     echo
