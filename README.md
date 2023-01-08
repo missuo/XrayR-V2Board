@@ -84,5 +84,3 @@ Since your repository may be public after you Fork this repository. Modifying th
 
 **XrayR-V2Board** © [Vincent Young](https://github.com/missuo), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by Vincent Young.
-
-> [Blog](https:/missuo.me) · GitHub [@missuo](https://github.com/missuo) · Twitter [@m1ssuo](https://twitter.com/m1ssuo)
