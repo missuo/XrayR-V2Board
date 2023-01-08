@@ -83,4 +83,3 @@ Since your repository may be public after you Fork this repository. Modifying th
 ## Author
 
 **XrayR-V2Board** © [Vincent Young](https://github.com/missuo), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by Vincent Young.
