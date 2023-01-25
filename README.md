@@ -2,7 +2,7 @@
  * @Author: Vincent Young
  * @Date: 2022-07-26 02:19:56
  * @LastEditors: Vincent Young
- * @LastEditTime: 2022-11-13 03:24:15
+ * @LastEditTime: 2023-01-26 04:20:43
  * @FilePath: /XrayR-V2Board/README.md
  * @Telegram: https://t.me/missuo
  * 
@@ -82,4 +82,4 @@ Since your repository may be public after you Fork this repository. Modifying th
 
 ## Author
 
-**XrayR-V2Board** © [Vincent Young](https://github.com/missuo), Released under the [MIT](./LICENSE) License.<br>
+**XrayR-V2Board** © [Vincent Young](https://github.com/missuo) & [Ming](https://github.com/Chenming00), Released under the [MIT](./LICENSE) License.<br>
