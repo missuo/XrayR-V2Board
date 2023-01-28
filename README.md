@@ -60,7 +60,7 @@ bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/AutoApplyCert/apply.sh)
 ApiHost: "YOUR_PANEL_URL" # Modify here
 ApiKey: "YOUR_TOKEN" # Modify here
 ```
-2. Modify line 213 of the `install.sh` file to change the username `missuo` to your own GitHub username.
+2. Modify line 224 of the `install.sh` file to change the username `missuo` to your own GitHub username.
 ```
 wget https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
 ```
