@@ -23,10 +23,7 @@ English | [简体中文](https://github.com/missuo/XrayR-V2Board/blob/main/READM
 ## Update
 ### Nov 13, 2022
 - Support for `TLS`, such as `TCP-TLS`, `WebSocket-TLS`, `gRPC-TLS` and `Trojan-TLS`.
-- If you are using the TLS protocol, use the following command to request a certificate. (**Before applying, make sure that the domain name has resolved to an IP and that port 80 of the server is not occupied, and temporarily stop the `Nginx` service.**)
-```shell
-bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/AutoApplyCert/apply.sh)
-```
+
 ### Oct 7, 2022
 - Switch to the latest official version.
 ### May 19, 2022
