@@ -185,7 +185,7 @@ install_XrayR() {
      # 设置节点序号
     echo "设定节点序号"
     echo ""
-    read -p "请输入V2Board中的节点序号:" node_id
+    read -p "请输入V2Board中的节点序号: " node_id
     [ -z "${node_id}" ]
     echo "---------------------------"
     echo "您设定的节点序号为 ${node_id}"
@@ -195,7 +195,7 @@ install_XrayR() {
     # 选择协议
     echo "选择节点类型(默认V2ray)"
     echo ""
-    read -p "请输入你使用的协议(V2ray, Shadowsocks, Trojan):" node_type
+    read -p "请输入你使用的协议(V2ray, Shadowsocks, Trojan): " node_type
     [ -z "${node_type}" ]
     
     # 如果不输入默认为V2ray
@@ -211,7 +211,7 @@ install_XrayR() {
     # 输入域名（TLS）
     echo "输入你的域名"
     echo ""
-    read -p "请输入你的域名(node.v2board.com)如没开启TLS请直接回车:" node_domain
+    read -p "请输入你的域名(node.v2board.com)如没开启TLS请直接回车: " node_domain
     [ -z "${node_domain}" ]
 
     # 如果不输入默认为node1.v2board.com
