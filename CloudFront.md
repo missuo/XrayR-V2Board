@@ -12,6 +12,8 @@
 
 The author now lives in a free country, so it will no longer be updated.
 
+作者现在生活在一个自由的国度，故不再更新。
+
 # 使用Amazon CDN (CloudFront) 加速你的节点
 
 `CloudFront` 是 `AWS` 提供的 `CDN` 服务。但这并不是无限量免费的，具体的免费额度请查阅 `AWS` 官网的介绍，如产生大量费用，概不负责。使用 `CloudFront` 加速你的节点，可以让你的节点速度更快。原理是你的本地网络到你的节点IP之间的网络质量可能不是很好，但是使用了 `CloudFront` 后，可以保证的是 `CloudFront` 到你的节点源IP的质量一定是好的，你只需要找到你本地网络到 `CloudFront` 速度最快的 `自选IP`即可。
