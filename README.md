@@ -67,7 +67,7 @@ wget https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/config.yml -O /etc/XrayR/c
 bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/install.sh)
 ```
 4. Complete the basic node information on the `V2Board` panel.
-![Screenshot](https://i3.wp.com/telegra.ph/file/7cb5896547db0c9c747a0.png)
+![Screenshot](https://telegra.ph/file/7cb5896547db0c9c747a0.png)
 5. Record your node ID.
 6. Execute the above one-click install command on your VPS, it will install fully automatically and you will be prompted to enter your node ID.
 
